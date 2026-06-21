@@ -1,0 +1,120 @@
+
+html{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
+
+main{
+    margin: 5%;
+    margin-top: 160px;
+}
+
+.menu{
+    margin-left: auto;
+    text-align: right;
+    line-height: 100px; /* mesmo valor que o height da logo */
+}
+
+.capas{
+    padding: 100px;
+    display: flex; /*coloca as imagens lado a lado*/
+    gap: 90px; /*o espaçamento entre as imagens*/
+    align-items: center;
+}
+
+.capas-livros{
+    display: flex;
+    flex-direction: column; /*deixa a imagem em cima e o link embaixo*/
+    align-items: center;
+    gap: 10px;
+}
+
+.capas img{
+  width: 200px;  
+  height: auto;
+}
+
+.capas a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.capas a:hover{
+    color:rgb(55, 141, 190);
+}
+
+li{
+    color: white;
+}
+
+footer li{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+}
+
+header{
+    background-color: rgb(0, 45, 112);
+    color: white;
+    display: block;
+    text-align: right;
+    padding: 20px, 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.gato{
+    float: left;
+    height: 100px;
+    width: auto;
+    margin: 5px;
+    margin-left: 45px; /* aumente ou diminua para mover mais ou menos */
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+nav a:last-child{
+    margin-right: 5%;
+}
+
+footer{
+    background-color: rgb(0, 45, 112);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box; /* faz o padding ficar dentro do width*/
+}
+
+section:first-child p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}section:first-child a{
+    color: white;
+    text-decoration: none;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}

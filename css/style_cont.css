@@ -1,0 +1,156 @@
+html{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
+
+main{
+    margin: 5%;
+    margin-top: 160px;
+}
+
+.menu{
+    margin-left: auto;
+    text-align: right;
+    line-height: 100px; /* mesmo valor que o height da logo */
+}
+
+h1{
+    color: rgb(9, 106, 253);
+}
+
+footer li{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+}
+
+header{
+    background-color: rgb(0, 45, 112);
+    color: white;
+    display: block;
+    text-align: right;
+    padding: 20px, 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.gato{
+    float: left;
+    height: 100px;
+    width: auto;
+    margin: 5px;
+    margin-left: 45px; /* aumente ou diminua para mover mais ou menos */
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+nav a:last-child{
+    margin-right: 5%;
+}
+
+footer{
+    background-color: rgb(0, 45, 112);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box; /* faz o padding ficar dentro do width*/
+}
+
+section:first-child p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}section:first-child a{
+    color: white;
+    text-decoration: none;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.inicio p{
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+label{
+    color: white;
+    font-size: 17px;
+}
+
+input{
+    background-color: rgb(181, 209, 240);
+}
+
+textarea{
+    background-color: rgb(181, 209, 240);
+}
+
+fieldset{
+    border: solid, rgb(161, 211, 255);
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 50%;
+}
+
+::placeholder{
+    font-family: sans-serif;
+    font-size: 13.5px;
+}
+
+button{
+    background-color: rgb(161, 211, 255);
+    border: none;
+    height: 25px;
+    margin-left: 35%;
+    width: 25%;    
+}
+
+.texto{
+    width: 70%;
+}
+
+#mensagem-erro{
+	color: rgb(255, 241, 42);
+    list-style: none;
+    padding: 0;
+    margin-top: 4%;
+    margin-bottom: 10px;
+}
+
+.sucesso{
+    color: rgb(50, 250, 50);
+}
+
+form div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input, textarea{
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+}
