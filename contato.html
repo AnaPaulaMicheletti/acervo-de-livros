@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="icon" href="img/livro.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style_cont.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="gato" src="../Prova2/img/gato.png" alt="Logo do site">
+        <nav class="menu">
+            <a href="index.html">Home</a></li>
+            <a href="sobre.html">Sobre</a></li>
+            <a href="colecao.html">Coleção</a></li>
+            <a href="contato.html">Contato</a></li>
+        </nav>
+    </header>
+    
+<main>
+    <section class="inicio">
+        <h1>Entre em Contato</h1>
+            <p>Tem alguma dúvida, sugestão ou deseja compartilhar sua opinião sobre o conteúdo do site? Ficaremos felizes em receber sua mensagem.</p>
+
+            <p>Este espaço foi criado para facilitar a comunicação com nossos visitantes. Seja para relatar alguma informação desatualizada, sugerir melhorias ou entrar em contato por qualquer outro motivo relacionado ao site, estamos à disposição para ajudar.</p>
+    </section>
+
+    <section>
+        <fieldset>
+            <form>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" size="60" placeholder="Escreva seu nome">
+                    </div>
+                            <br>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" id="email" size="60" placeholder="Digite o edereço de e-mail">
+                    </div>
+                            <br>
+                    <div>
+                        <label for="tel">Telefone:</label>
+                        <input type="number" name="tel" id="tel" placeholder="(41) 9 9999-9999">
+                    </div>
+                            <br>
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" id="assunto" size="60" placeholder="Sobre o que é a mensagem">
+                    </div>
+                            <br>
+                    <div>
+                        <label for="mens">Mensagem:</label>
+                       <textarea class="texto" rowspan="3" name="" id="mens" cols="50" rows="2" placeholder="Envie sugestões, críticas, dúvidas, relato de erros ou informações incorretas ou outras questões relacionadas ao projeto."></textarea>
+                    </div>
+                            <br>
+                <button type="button" id="enviar" class="botao bto-principal">Enviar</button>
+                <li id="mensagem-erro"></li>
+                <p class="sucesso" id="mensagem-sucesso""></p>
+            </form>
+        </fieldset>
+    </section>
+</main>
+
+    <footer>
+        <p>Este site foi desenvolvido com fins educacionais e informativos, buscando apresentar as obras de forma acessível e interativa para os leitores.</p>
+
+        <h4>Navegação rápida</h4>
+        <ul>
+            <li>Início</li>
+            <li>Sinopse</li>
+            <li>Personagens</li>
+            <li>Review</li>
+            <li>Curiosidades</li>
+        </ul>
+    </footer>
+                <script src="js/form.js" defer></script>
+</body>
+</html>
